@@ -12,7 +12,7 @@ public class CommonHttp {
 	
 	static public HttpReturnData getAPI(String url)throws ClientprotocolException, IOException{
 		
-		String responseString ="";
+		String responseString ="TEST";
 		if(Client==null) {
 			Client = new DefaultHttpClient();
 			CookieStore cookieStore = new BasicCookieStore();
